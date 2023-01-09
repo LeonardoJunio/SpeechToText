@@ -1,1 +1,3 @@
-# SpeechToText
+# Projeto Speech-To-Text
+
+* Python
