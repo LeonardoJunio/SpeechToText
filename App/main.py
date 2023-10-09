@@ -5,9 +5,9 @@ music = sr.AudioFile("music_wav.wav")
 with music as source:
     audio = r.record(source)
     
-print("Traduzindo...")
+print("Transcribing...")
 
-try:   
+try:
     print("You said: " + r.recognize_google(audio))
 except sr.UnknownValueError:
     print("Google Speech Recognition could not understand audio")

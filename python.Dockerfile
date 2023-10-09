@@ -1,5 +1,5 @@
 # Imagem de Origem
-FROM python:3
+FROM python:3.11
 
 # requirements.txt gerado por python -m pip freeze > requirements.txt
 #(Ignorado por enquanto)Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. 
