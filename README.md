@@ -16,7 +16,6 @@
 
 ### :gear: Configurações:
 
-* Verificar se o requirements.txt contem todas as extensões desejadas. Caso precise de algo mais, rodar no docker: pip install SpeechRecognition (depois colocar-la no requirements)
 * Executar o dockerfile (docker build -f python.Dockerfile -t build-amb ./ && docker run --rm -it --entrypoint bash -v ${PWD}:/app build-amb)
 * Entrar na pasta App
 * Rodar o comando: python <_nome_arquivo_>
@@ -25,6 +24,7 @@
 
 * Verificar se não há outras ferramentas mais 'aprimoradas' se comparado a SpeechRecognition
 * Aprimorar código/estrutura do projeto
+* Adicionar GitIgnore para arquivos gerados automaticamente
 * Transferir para inglês(?)
 
 ##
