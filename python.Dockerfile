@@ -14,5 +14,7 @@ WORKDIR /app
 
 USER 1000
 
+ENV PYTHONPATH "$PYTHONPATH:/app/App"
+
 # docker build -f python.Dockerfile -t build-amb ./ && docker run --rm -it --entrypoint bash -v ${PWD}:/app build-amb 
 # docker rmi build-amb

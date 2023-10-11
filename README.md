@@ -1,10 +1,10 @@
 <h1 align="center">Speech To Text - Python</h1>
 
-<p align="center">Projeto para converter audios em textos com Speech Recognition (python)</p>
+<p align="center">Project to convert audio files into text with Speech Recognition using python</p>
 
 <hr> 
 
-### :hammer_and_wrench: Tecnologias e Conceitos:
+### :hammer_and_wrench: Technologies & Concepts:
 
 * Python 3.11
 * Speech Recognition 3.8.1
@@ -14,21 +14,22 @@
 	<img src="https://img.shields.io/static/v1?label=license&message=MIT&color=green&style=flat"/>
 </div>
 
-### :gear: Configurações:
+### :gear: Settings:
 
-* Executar o dockerfile (docker build -f python.Dockerfile -t build-amb ./ && docker run --rm -it --entrypoint bash -v ${PWD}:/app build-amb)
-* Entrar na pasta App
-* Rodar o comando: python <_nome_arquivo_>
+* Launch dockerfile:
+```bash
+docker build -f python.Dockerfile -t build-amb ./ && docker run --rm -it --entrypoint bash -v ${PWD}:/app build-amb 
+```
 
-### :warning: Erros/Aprimoramentos:
+* Run the following commands:
+```bash
+python App/src/main.py
+```
 
-* Verificar se não há outras ferramentas mais 'aprimoradas' se comparado a SpeechRecognition
-* Aprimorar código/estrutura do projeto
-* Adicionar GitIgnore para arquivos gerados automaticamente
-* Transferir para inglês(?)
+### :warning: Bugs/Improvements:
 
 ##
 
 <div align="center">
-	<p>Feito com :computer: + :heart: por Leonardo Junio</p>
+	<p>Made with :computer: + :heart: by Leonardo Junio</p>
 </div>
